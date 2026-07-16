@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+       body  {
+        /* Here you can change the background color  */
+        background-color: grey; 
+        
+       }
+
+       .about  {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 120px;
+       }
+
+       .name {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+       } 
+
+       .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+       }
+        
+       .info-text {
+        margin-left: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+        }
+       
+    
+       .titlesocials {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-decoration: underline;
+        font-size: 30px;
+       }
+       .socials {
+        margin-top: 50px;
+        display: flex;
+        justify-content:  center;
+       }
+
+       .socials button {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+       }
+
+       /* Here you can change the button colors. Remember to copy it for more buttons */
+       .socialbutton1 {
+        background-color: rgb(52, 33, 228);
+       }
+
+       .socialbutton2 {
+        background-color: red;
+       }
+
+       .socialbutton3 {
+        background-color: black;
+       }
+
+       .socialbutton1:hover {
+        transform: scale(1.05);
+       }
+
+       .socialbutton2:hover {
+        transform: scale(1.05);
+       }
+
+       .socialbutton3:hover {
+        transform: scale(1.05);
+       }
+       
+    </style>
+
+    <script>
+        // Paste your links here, make sure that they match the button's function
+        let link1 = "https://www.discord.com"
+        let link2 = "https://youtube.com"
+        let link3 = "https://github.com"
+        
+    </script>
+
+</head>
+<body>
+    <div class="about"> About me </div>
+    <div class="name">Example Name</div> <!-- Name/Gamertag here-->
+
+    <div class="info">
+        <img src="" alt="" style="width: 200px; height: 200px;"> <!-- Add an image here, make sure it is 200px by 200px-->
+        <div class="info-text">
+            <p>Age:</p> <!-- Age-->
+            <p>Hobbies:</p> <!-- Here you can add your hobbies-->
+            <!-- Add more info here-->
+        </div>
+    </div>
+    
+    <div class="titlesocials">Socials</div>
+
+   <div class="socials">
+        <!-- Copy or change the buttons here-->
+        <button onclick="window.open(link1, '_blank', 'noopener,noreferrer')" class="socialbutton1">Discord</button> 
+        <button onclick="window.open(link2, '_blank', 'noopener,noreferrer')" class="socialbutton2">YouTube</button> 
+        <button onclick="window.open(link3, '_blank', 'noopener,noreferrer')" class="socialbutton3">GitHub</button> 
+
+   </div>
+</body>
+</html>
